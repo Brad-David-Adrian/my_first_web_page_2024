@@ -1,26 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
+    <title>Fundamentals of Computer Engineering</title>
+    <style>
+        /* General Styles for Body and Page */
         html, body {
-            height: 100%;
             margin: 0;
             padding: 0;
+            width: 100%;
+            height: 100%;
             font-family: Arial, sans-serif;
         }
 
-        /* Ensure body takes full height */
         body {
             display: flex;
             flex-direction: column;
-            min-height: 100vh; /* Ensures body takes full height of the viewport */
         }
 
         /* Header Styling */
@@ -32,6 +36,7 @@
             width: 100%;
         }
 
+        /* Navigation links styling */
         nav a {
             color: white;
             text-decoration: none;
@@ -51,9 +56,10 @@
 
         /* Main content and Flex Layout */
         main {
-            flex: 1;  /* Makes sure the main content fills the remaining space */
+            flex-grow: 1;
             display: flex;
             flex-direction: column;
+            min-height: calc(100vh - 120px); /* Full height minus header and footer space */
         }
 
         /* About Me Section Styling */
@@ -109,9 +115,8 @@
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px 0;
+            padding: 20px 0;
             width: 100%;
-            margin-top: auto; /* This ensures the footer stays at the bottom */
         }
 
         footer a {
@@ -121,6 +126,11 @@
 
         footer a:hover {
             text-decoration: underline;
+        }
+
+        /* Ensure full width and height for all sections */
+        * {
+            box-sizing: border-box;
         }
     </style>
 </head>
@@ -134,13 +144,11 @@
             </nav>
         </div>
     </header>
-
     <main>
         <div class="content">
             <h1>Welcome to the Webpage</h1>
             <p>This is the central area of the webpage where you can include your content.</p>
         </div>
-
         <div class="menu">
             <div class="menu-content">
                 <div class="menu-item">
@@ -158,7 +166,6 @@
             </div>
         </div>
     </main>
-
     <footer>
         <p>&copy; 2024 All Rights Reserved. Design by <a href="#">Adrian David Brad</a></p>
     </footer>
