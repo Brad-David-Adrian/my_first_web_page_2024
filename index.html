@@ -25,10 +25,13 @@
     html, body {
       height: 100%;
       font-family: Arial, sans-serif;
+    }
+    
+    body {
       display: flex;
       flex-direction: column;
     }
-    
+
     .container {
       max-width: 1000px;
       width: 100%;
@@ -38,7 +41,7 @@
     header {
       background-color: #333;
       color: white;
-      padding: 20px 0;
+      padding: 20px;
       text-align: center;
     }
     
@@ -46,16 +49,17 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
     }
     
     .header-title {
       font-size: 1.5rem;
-      padding-left: 20px;
     }
     
     nav {
       display: flex;
       gap: 20px;
+      flex-wrap: wrap;
     }
     
     nav a {
@@ -77,27 +81,28 @@
     }
     
     .content {
-      flex: 1;
+      flex: 1; /* Expande esta sección para ocupar el espacio restante */
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       background-color: #f5f5f5;
       text-align: center;
+      padding: 20px;
     }
     
     .menu {
       background-color: #1a1a2e;
       color: white;
-      padding: 20px 0;
+      padding: 20px;
       text-align: center;
     }
     
     .menu-content {
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
       gap: 50px;
-      align-items: center;
     }
     
     .menu-item {
@@ -120,7 +125,7 @@
       background-color: #333;
       color: white;
       text-align: center;
-      padding: 10px 0;
+      padding: 10px;
     }
 
     footer a {
