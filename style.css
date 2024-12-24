@@ -1,15 +1,21 @@
-body {
+/* Reset de márgenes y paddings */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     background-color: #f4f4f9;
+    line-height: 1.6;
 }
 
 header, footer {
-    background: #333;
-    color: #fff;
+    background-color: #333;
+    color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 nav a {
