@@ -13,9 +13,10 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   
-  <title>Fundamentals of Computer Engineering</title>
+  <title>Webpage Layout</title>
   
   <style>
+    /* Reset and basic styles */
     * {
       margin: 0;
       padding: 0;
@@ -23,22 +24,16 @@
     }
 
     html, body {
-      height: 100%;
-      font-family: Arial, sans-serif;
+      height: 100%; /* Garantiza que el viewport ocupe el 100% de la altura */
     }
     
     body {
       display: flex;
       flex-direction: column;
-      min-height: 100%;
+      min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura del viewport */
+      font-family: Arial, sans-serif;
     }
 
-    .container {
-      max-width: 1000px;
-      width: 100%;
-      margin: 0 auto;
-    }
-    
     header {
       background-color: #333;
       color: white;
@@ -80,9 +75,9 @@
       background-color: red;
       color: white;
     }
-    
-    .content {
-      flex: 1; /* Asegura que esta sección ocupe el espacio restante */
+
+    .container {
+      flex: 1; /* Permite que esta sección crezca y ocupe el espacio disponible */
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -141,7 +136,8 @@
   </style>
 </head>
 <body>
-  <header class="container">
+  <!-- Header -->
+  <header>
     <div class="header-content">
       <h1 class="header-title">Webpage Header</h1>
       <nav>
@@ -152,13 +148,13 @@
     </div>
   </header>
   
+  <!-- Main Content -->
   <div class="container">
-    <div class="content">
-      <p>Welcome to the webpage!</p>
-      <p>This is the central area of the webpage where you can include your content.</p>
-    </div>
+    <p>Welcome to the webpage!</p>
+    <p>This is the central area of the webpage where you can include your content.</p>
   </div>
   
+  <!-- Menu Section -->
   <div class="menu">
     <div class="menu-content">
       <div class="menu-item">
@@ -176,6 +172,7 @@
     </div>
   </div>
   
+  <!-- Footer -->
   <footer>
     <p>&copy; 2024 All Rights Reserved. Design by <a href="#">Adrian David Brad</a></p>
   </footer>
