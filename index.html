@@ -1,16 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <!-- Basic -->
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-
     <title>Fundamentals of Computer Engineering</title>
     <style>
         /* General Styles for Body and Page */
@@ -25,6 +18,7 @@
         body {
             display: flex;
             flex-direction: column;
+            height: 100vh; /* Make sure body takes full height of viewport */
         }
 
         /* Header Styling */
@@ -36,7 +30,6 @@
             width: 100%;
         }
 
-        /* Navigation links styling */
         nav a {
             color: white;
             text-decoration: none;
@@ -56,10 +49,9 @@
 
         /* Main content and Flex Layout */
         main {
-            flex-grow: 1;
+            flex: 1;  /* Allow the main content to grow and fill available space */
             display: flex;
             flex-direction: column;
-            min-height: calc(100vh - 120px); /* Full height minus header and footer space */
         }
 
         /* About Me Section Styling */
