@@ -8,3 +8,4 @@ This is the repository for activity 3
 - Added footer and header
 - Added images for content section
 - Added content and menu
+- Added some changes to the html file
