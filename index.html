@@ -13,18 +13,17 @@
 
     <title>Fundamentals of Computer Engineering</title>
     <style>
-        body {
+        html, body {
             margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
             font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
 
-        .container {
-            max-width: 1000px;
-            width: 100%;
-            margin: 0 auto;
+        body {
+            display: flex;
+            flex-direction: column;
         }
 
         header {
@@ -32,6 +31,7 @@
             color: white;
             padding: 20px 0;
             text-align: center;
+            width: 100%;
         }
 
         .header-content {
@@ -63,25 +63,14 @@
             color: white;
         }
 
-        .footer-section {
-            width: 100%;
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        .footer-section a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .footer-section a:hover {
-            text-decoration: underline;
+        main {
+            flex: 1; /* Expand to fill remaining space */
+            display: flex;
+            flex-direction: column;
         }
 
         .content {
-            height: 800px;
+            flex: 1; /* Ensure content section fills available height */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -118,10 +107,27 @@
             width: 40px;
             height: 40px;
         }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <header class="container">
+    <header>
         <div class="header-content">
             <nav>
                 <a href="#" class="active">Home</a>
@@ -130,7 +136,7 @@
             </nav>
         </div>
     </header>
-    <main class="container">
+    <main>
         <div class="content">
             <h1>Welcome to the Webpage</h1>
             <p>This is the central area of the webpage where you can include your content.</p>
@@ -152,7 +158,7 @@
             </div>
         </div>
     </main>
-    <footer class="footer-section">
+    <footer>
         <p>&copy; 2024 All Rights Reserved. Design by <a href="#">Adrian David Brad</a></p>
     </footer>
 </body>
