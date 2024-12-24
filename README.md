@@ -10,3 +10,4 @@ This is the repository for activity 3
 - Added content and menu
 - Added some changes to the html file
 - Updated the footer section so it appears in white
+- Made the Web ocuppy the whole tab
