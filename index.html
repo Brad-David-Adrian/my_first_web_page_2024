@@ -1,143 +1,166 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Basic -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-
-    <title>Fundamentals of Computer Engineering</title>
-    <style>
-        /* Make html and body occupy full height */
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            font-family: Arial, sans-serif;
-        }
-
-        /* Make body a flex container */
-        body {
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* Ensure header occupies full width */
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            width: 100%;
-        }
-
-        /* Main should fill the remaining space */
-        main {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* Content styling */
-        .content {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: #f5f5f5;
-        }
-
-        /* Menu styling */
-        .menu {
-            background-color: #1a1a2e;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        .menu-content {
-            display: flex;
-            justify-content: center;
-            gap: 50px;
-            align-items: center;
-        }
-
-        .menu-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .menu-item p {
-            margin: 10px 0 0;
-            font-size: 14px;
-        }
-
-        .menu-icon {
-            width: 40px;
-            height: 40px;
-        }
-
-        /* Footer styling */
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            width: 100%;
-        }
-
-        footer a {
-            color: white;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  
+  <title>Fundamentals of Computer Engineering</title>
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .container {
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .header-title {
+      font-size: 1.5rem;
+      padding-left: 20px;
+    }
+    
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+    
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    
+    nav a:hover {
+      background-color: #555;
+    }
+    
+    nav a.active {
+      background-color: red;
+      color: white;
+    }
+    
+    .footer-section {
+      max-width: 1000px;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+    }
+    
+    .footer-section a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+    
+    .content {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+    
+    .menu {
+      background-color: #1a1a2e;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    .menu-content {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      align-items: center;
+    }
+    
+    .menu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .menu-item p {
+      margin: 10px 0;
+      font-size: 14px;
+    }
+    
+    .menu-icon {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <nav>
-                <a href="#" class="active">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="content">
-            <h1>Welcome to the Webpage</h1>
-            <p>This is the central area of the webpage where you can include your content.</p>
-        </div>
-        <div class="menu">
-            <div class="menu-content">
-                <div class="menu-item">
-                    <img src="./images/location-white.png" alt="Location Icon" class="menu-icon" />
-                    <p>Location</p>
-                </div>
-                <div class="menu-item">
-                    <img src="./images/telephone-white.png" alt="Phone Icon" class="menu-icon" />
-                    <p>+02 1234567890</p>
-                </div>
-                <div class="menu-item">
-                    <img src="./images/envelope-white.png" alt="Email Icon" class="menu-icon" />
-                    <p>demo@gmail.com</p>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <p>&copy; 2024 All Rights Reserved. Design by <a href="#">Adrian David Brad</a></p>
-    </footer>
+  <header class="container">
+    <div class="header-content">
+      <h1 class="header-title">Webpage Header</h1>
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+  <div class="container">
+    <div class="content">
+      <p>Welcome to the webpage!</p>
+      <p>This is the central area of the webpage where you can include your content.</p>
+    </div>
+  </div>
+  
+  <div class="menu">
+    <div class="menu-content">
+      <div class="menu-item">
+        <img src="./images/location-white.png" alt="Location Icon" class="menu-icon" />
+        <p>Location</p>
+      </div>
+      <div class="menu-item">
+        <img src="./images/cellphone-white.png" alt="Phone Icon" class="menu-icon" />
+        <p>+92 1234567890</p>
+      </div>
+      <div class="menu-item">
+        <img src="./images/mail-white.png" alt="Email Icon" class="menu-icon" />
+        <p>example@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer-section">
+    <p>&copy; 2024 All Rights Reserved. Design by <a href="#">Adrian David Brad</a></p>
+  </footer>
 </body>
 </html>
