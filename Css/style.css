@@ -553,8 +553,7 @@ section {
       }
 
       .mitextoconfondo2{
-        color: white;
-        text-justify: auto;
+        text-align: justify;
         background-color: #9a9a9a;
         margin-left: 68.5%;
         height: 50%;
@@ -562,13 +561,14 @@ section {
 
       .mitextoconfondo3{
         color: white;
-        text-justify: auto;
+        text-align: justify;
         background-color: #9a9a9a;
         margin-left: 68.5%;
         height: 87%;
       }
 
       .net{
+        display: flex;
         align-items: center;
         width: 100%;
         margin-top: 100px;
@@ -587,5 +587,6 @@ section {
         width: 45%;
         float: left;
         margin: 20px;
+        display: flex;
         align-items: center;
       }
