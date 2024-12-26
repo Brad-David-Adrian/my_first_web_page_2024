@@ -1,53 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About - Fundamentals of Computer Engineering</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    header, footer {
-      width: 100%;
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 10px 0;
-    }
-    nav a {
-      margin: 0 10px;
-      color: white;
-      text-decoration: none;
-    }
-    nav a:hover {
-      color: red;
-    }
-    .content {
-      margin: 20px auto;
-      text-align: center;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About me</title>
+  <link href="../css/style.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-  <header>
-    <h1>Fundamentals of Computer Engineering</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html" class="active">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+  <header class="header"> 
+    <a href="#" class="logo">About Me</a>
+      <nav class="navbar">
+          <a href="../index.html">Home</a>
+          <a href="./about.html" class="active">About</a>
+          <a href="./net.html">Net</a>
+          <a href="./topic/topic.html">Topic</a>
+          <a href="./degree.html">Degree</a>
+          <a href="./contact.html">Contact</a>
+      </nav>
   </header>
-  <div class="content">
-    <h2>About Us</h2>
-    <p>This is the About section. Here you can include information about your organization or purpose.</p>
-  </div>
-  <footer>
-    <p>&copy; 2024 All Rights Reserved. Design by Adrian David Brad</p>
-  </footer>
+
+      <section class="about">
+        <div class="about-content">
+          <h1>Hi, I'm example name</h1>
+          <p>I'm example name i study computer engineering. In this grade we not only learn how to code but
+            also we learn and understand how computers work, how to build them and how to make them work.</p>
+          <p>In the academic sphere, we stand out for our keen wit and ability to tackle problems 
+            with an analytical perspective. We dedicate ourselves fervently to solving
+            challenging projects, finding innovativesolutions, and apply our knowledge practically.</p>
+            <div class="btn-box">
+                <a href="../public/cv.html">My CV</a>
+            </div>
+        </div>
+        <div class="about-sci">
+            <a href="https://www.instagram.com/example_instagram/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/school/universidad-francisco-de-vitoria-/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <span class="about-imgHover"></span>
+        </section>
 </body>
 </html>
