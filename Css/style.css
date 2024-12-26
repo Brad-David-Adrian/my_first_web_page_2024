@@ -348,7 +348,7 @@ section {
 
 .topic{
     height: 100vh;
-    background: url(../img/toros.jpg) no-repeat;
+    background: url(./img/League_of_Legends.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
