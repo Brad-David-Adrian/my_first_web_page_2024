@@ -1,53 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Home - Fundamentals of Computer Engineering</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    header, footer {
-      width: 100%;
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 10px 0;
-    }
-    nav a {
-      margin: 0 10px;
-      color: white;
-      text-decoration: none;
-    }
-    nav a:hover {
-      color: red;
-    }
-    .content {
-      margin: 20px auto;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Fundamentals of Computer Engineering</h1>
-    <nav>
-      <a href="index.html" class="active">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <div class="content">
-    <h2>Welcome to the Home Page</h2>
-    <p>This is the central area of the webpage where you can include your content.</p>
-  </div>
-  <footer>
-    <p>&copy; 2024 All Rights Reserved. Design by Adrian David Brad</p>
-  </footer>
-</body>
-</html>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alvaro Gonzalez's Website</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    </head>
+    <body>
+      <header class="header">
+        <a href="#" class="logo">Alvaro Gonzalez's Website</a>
+          <nav class="navbar">
+              <a href="#" class="active">Home</a>
+              <a href="./public/about.html">About</a>
+              <a href="./public/net.html">Net</a>
+              <a href="./public/topic/topic.html">Topic</a>
+              <a href="./public/degree.html">Degree</a>
+              <a href="./public/contact.html">Contact</a>
+          </nav>
+      </header>
+
+      <section class="home">
+        <div class="home-content">
+          <h1>Hi, I'm Alvaro Gonzalez</h1>
+          <h3>Student of Francisco de Vitoria</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat velit iusto voluptatem 
+            voluptatum inventore alias facilis maiores, vero illo commodi maxime quo fugit hic distinctio 
+            repellat obcaecati!</p>
+            <div class="btn-box">
+                <a href="./public/contact.html">Let's talk</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.instagram.com/agonnzalezz_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/school/universidad-francisco-de-vitoria-/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class='bx bxl-twitter' ></i></a>
+        </div>
+
+        <span class="home-imgHover"></span>
+      </section>
+    </body>
+    </html>
