@@ -98,7 +98,7 @@ body {
     color: #00abf0;
 }
 
-.home-sci{
+.home-sci {
     position: absolute;
     bottom: 40px;
     width: 170px;
@@ -106,7 +106,7 @@ body {
     justify-content: space-between;
 }
 
-.home-sci a{
+.home-sci a {
     position: relative;
     display: inline-flex;
     justify-content: center;
