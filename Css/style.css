@@ -169,6 +169,33 @@ body {
     margin-bottom: 20px;
 }
 
+/* CV Section Styles */
+.cv {
+    padding: 100px 10%;
+    background-color: #fff;
+}
+
+.cv-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cv-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
 /* Contact Form Styles */
 .contact-content {
     max-width: 600px;
