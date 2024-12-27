@@ -196,6 +196,68 @@ body {
     margin-bottom: 20px;
 }
 
+/* Degree Section Styles */
+.degree {
+    padding: 100px 10%;
+    background-color: #fff;
+}
+
+.degree-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.degree-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.degree-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.degree-links {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.degree-links h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.degree-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.degree-links ul li {
+    margin-bottom: 10px;
+}
+
+.degree-links ul li a {
+    font-size: 18px;
+    color: #00abf0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.degree-links ul li a:hover {
+    color: #007bb5;
+}
+
 /* Contact Form Styles */
 .contact-content {
     max-width: 600px;
