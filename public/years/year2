@@ -4,24 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computer Engineering Curriculum - Year 2</title>
+    <link rel="stylesheet" href="../Css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h1>Year 2</h1>
-    <p>
-        The second year builds on the first by delving deeper into computer science and engineering concepts while introducing systems analysis and web development.
-    </p>
-    <h2>Subjects</h2>
-    <ul>
-        <li>Data Structures and Algorithms</li>
-        <li>Architecture and Computer Organization</li>
-        <li>Information Systems Analysis and Design</li>
-        <li>Web Development</li>
-        <li>Projects I</li>
-        <li>Anthropology and Social Responsibility</li>
-        <li>Statistics</li>
-        <li>Database Design and Management</li>
-        <li>Operating Systems</li>
-        <li>Software Engineering I</li>
-    </ul>
+    <header class="header">
+        <a href="../index.html" class="logo">Adrian David Website</a>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../degree.html" class="active">Degree</a>
+            <a href="../Info/topic.html">Topic</a>
+            <a href="../contact.html">Contact</a>
+            <a href="../cv.html">C.V</a>
+            <a href="../fundamentals.html">F.C</a>
+            <a href="../net.html">Net</a>
+        </nav>
+    </header>
+
+    <section class="degree">
+        <div class="degree-content">
+            <h1>Year 2</h1>
+            <p>
+                The second year builds on the first by delving deeper into computer science and engineering concepts while introducing systems analysis and web development.
+            </p>
+            <h2>Subjects</h2>
+            <ul>
+                <li>Data Structures and Algorithms</li>
+                <li>Architecture and Computer Organization</li>
+                <li>Information Systems Analysis and Design</li>
+                <li>Web Development</li>
+                <li>Projects I</li>
+                <li>Anthropology and Social Responsibility</li>
+                <li>Statistics</li>
+                <li>Database Design and Management</li>
+                <li>Operating Systems</li>
+                <li>Software Engineering I</li>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>

@@ -4,26 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computer Engineering Curriculum - Year 3</title>
+    <link rel="stylesheet" href="../Css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h1>Year 3</h1>
-    <p>
-        The third year introduces advanced topics such as artificial intelligence, systems integration, and distributed systems, complemented by ethical considerations in the field.
-    </p>
-    <h2>Subjects</h2>
-    <ul>
-        <li>Artificial Intelligence I</li>
-        <li>Software Engineering II</li>
-        <li>Development and Integration of Software</li>
-        <li>Human-Computer Interaction</li>
-        <li>Complexity Theory</li>
-        <li>Professional Ethics</li>
-        <li>Systems Administration</li>
-        <li>Advanced Databases</li>
-        <li>Networks and Distributed Systems</li>
-        <li>Projects II</li>
-        <li>Machine Learning and Data Mining</li>
-        <li>Artificial Intelligence II</li>
-    </ul>
+    <header class="header">
+        <a href="../index.html" class="logo">Adrian David Website</a>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../degree.html" class="active">Degree</a>
+            <a href="../Info/topic.html">Topic</a>
+            <a href="../contact.html">Contact</a>
+            <a href="../cv.html">C.V</a>
+            <a href="../fundamentals.html">F.C</a>
+            <a href="../net.html">Net</a>
+        </nav>
+    </header>
+
+    <section class="degree">
+        <div class="degree-content">
+            <h1>Year 3</h1>
+            <p>
+                The third year introduces advanced topics such as artificial intelligence, systems integration, and distributed systems, complemented by ethical considerations in the field.
+            </p>
+            <h2>Subjects</h2>
+            <ul>
+                <li>Artificial Intelligence I</li>
+                <li>Software Engineering II</li>
+                <li>Development and Integration of Software</li>
+                <li>Human-Computer Interaction</li>
+                <li>Complexity Theory</li>
+                <li>Professional Ethics</li>
+                <li>Systems Administration</li>
+                <li>Advanced Databases</li>
+                <li>Networks and Distributed Systems</li>
+                <li>Projects II</li>
+                <li>Machine Learning and Data Mining</li>
+                <li>Artificial Intelligence II</li>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>

@@ -4,21 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computer Engineering Curriculum - Year 1</title>
+    <link rel="stylesheet" href="../Css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h1>Year 1</h1>
-    <p>
-        In the first year, students focus on foundational courses in computer engineering, gaining essential knowledge in mathematics, programming, and logic.
-    </p>
-    <h2>Subjects</h2>
-    <ul>
-        <li>Discrete Mathematics</li>
-        <li>Fundamentals of Computer Engineering</li>
-        <li>Introduction to Programming</li>
-        <li>Logic and Critical Thinking</li>
-        <li>Mathematics for Engineering</li>
-        <li>Electronics and Computer Technology</li>
-        <li>Business Processes</li>
-    </ul>
+    <header class="header">
+        <a href="../index.html" class="logo">Adrian David Website</a>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../degree.html" class="active">Degree</a>
+            <a href="../Info/topic.html">Topic</a>
+            <a href="../contact.html">Contact</a>
+            <a href="../cv.html">C.V</a>
+            <a href="../fundamentals.html">F.C</a>
+            <a href="../net.html">Net</a>
+        </nav>
+    </header>
+
+    <section class="degree">
+        <div class="degree-content">
+            <h1>Year 1</h1>
+            <p>
+                In the first year, students focus on foundational courses in computer engineering, gaining essential knowledge in mathematics, programming, and logic.
+            </p>
+            <h2>Subjects</h2>
+            <ul>
+                <li>Discrete Mathematics</li>
+                <li>Fundamentals of Computer Engineering</li>
+                <li>Introduction to Programming</li>
+                <li>Logic and Critical Thinking</li>
+                <li>Mathematics for Engineering</li>
+                <li>Electronics and Computer Technology</li>
+                <li>Business Processes</li>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>
