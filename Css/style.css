@@ -223,3 +223,29 @@ body {
 .contact-content button:hover {
     background: #007bb5;
 }
+
+/* Controversy Text Styles */
+.textocontroversy {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mitextoconfondo {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mitextoconfondo2 {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mitextoconfondo3 {
+    font-size: 18px;
+    line-height: 1.6;
+}
