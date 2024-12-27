@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Engineering Curriculum - Year 3</title>
+</head>
+<body>
+    <h1>Year 3</h1>
+    <p>
+        The third year introduces advanced topics such as artificial intelligence, systems integration, and distributed systems, complemented by ethical considerations in the field.
+    </p>
+    <h2>Subjects</h2>
+    <ul>
+        <li>Artificial Intelligence I</li>
+        <li>Software Engineering II</li>
+        <li>Development and Integration of Software</li>
+        <li>Human-Computer Interaction</li>
+        <li>Complexity Theory</li>
+        <li>Professional Ethics</li>
+        <li>Systems Administration</li>
+        <li>Advanced Databases</li>
+        <li>Networks and Distributed Systems</li>
+        <li>Projects II</li>
+        <li>Machine Learning and Data Mining</li>
+        <li>Artificial Intelligence II</li>
+    </ul>
+</body>
+</html>

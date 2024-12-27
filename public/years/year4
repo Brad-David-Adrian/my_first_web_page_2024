@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Engineering Curriculum - Year 4</title>
+</head>
+<body>
+    <h1>Year 4</h1>
+    <p>
+        The final year emphasizes project management and specialization, allowing students to focus on elective subjects and complete a capstone project.
+    </p>
+    <h2>Subjects</h2>
+    <ul>
+        <li>Project Planning and Management for IT Projects</li>
+        <li>Final Degree Project</li>
+        <li>Elective Courses (e.g., Cybersecurity, Robotics, Game Development, IoT)</li>
+    </ul>
+</body>
+</html>
